@@ -207,3 +207,13 @@ a=np.zeros((10,10,10,10,10),dtype=int)
 print(a)
 
 #do we have (1,3,2)array ?   1 2d array having 3 rows and 2 colmns
+#in 1-d array 
+#axis-0---> no of rows
+#axis-1----> no of columns 
+"""
+shape: (4,3,4)
+4 - 2d arrays  are there(axis-0)
+in every 2d array 3 rows are there(axis-1)
+4 columns in every 2d array (axis-2)
+"""
+# order of 2d arrays will be changed but not its internal contents 
